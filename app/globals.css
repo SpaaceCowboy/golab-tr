@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 33, 33, 33;
+  --background-rgb: 249, 249, 249;
+  --primary-rgb: 200, 169, 126;
+  --accent-rgb: 227, 100, 20;
+  
+  --radius: 0.5rem;
+  
+  /* Original shadcn variables */
+  --background: 0 0% 98%;
+  --foreground: 240 10% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 3.9%;
+  --primary: 36 43% 64%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 240 5.9% 10%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 240 4.8% 95.9%;
+  --accent-foreground: 240 5.9% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 240 5.9% 10%;
+  --chart-1: 36 43% 64%;
+  --chart-2: 21 90% 48%;
+  --chart-3: 24 12% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 16 36% 45%;
+}
+
+.dark {
+  --foreground-rgb: 245, 245, 245;
+  --background-rgb: 33, 33, 33;
+
+  --background: 20 14.3% 4.1%;
+  --foreground: 0 0% 95%;
+  --card: 24 9.8% 10%;
+  --card-foreground: 0 0% 95%;
+  --popover: 24 9.8% 10%;
+  --popover-foreground: 0 0% 95%;
+  --primary: 36 43% 64%;
+  --primary-foreground: 240 5.9% 10%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 12 6.5% 15.1%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 85.7% 97.3%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --ring: 36 43% 64%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb));
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium tracking-tight text-restaurant-dark;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl xl:text-6xl leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl leading-tight;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl leading-tight;
+  }
+  
+  p {
+    @apply leading-relaxed text-restaurant-dark/90;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section {
+    @apply py-12 md:py-20;
+  }
+  
+  /* Custom styles */
+  .menu-item-card {
+    @apply relative overflow-hidden bg-white border border-restaurant-primary/20 rounded-lg transition-all duration-300 hover:shadow-lg;
+  }
+
+  .menu-item-card:hover .menu-item-image {
+    @apply scale-105;
+  }
+
+  .menu-item-image {
+    @apply transition-transform duration-500;
+  }
+
+  .gold-underline {
+    @apply relative inline-block;
+  }
+
+  .gold-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 h-0.5 w-0 bg-restaurant-primary transition-all duration-300;
+  }
+
+  .gold-underline:hover::after {
+    @apply w-full;
+  }
+  
+  .fancy-border {
+    @apply relative;
+  }
+  
+  .fancy-border::before, .fancy-border::after {
+    content: '';
+    @apply absolute w-8 h-8 border-restaurant-primary;
+  }
+  
+  .fancy-border::before {
+    @apply top-0 left-0 border-t-2 border-l-2;
+  }
+  
+  .fancy-border::after {
+    @apply bottom-0 right-0 border-b-2 border-r-2;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-restaurant-primary text-white px-6 py-3 rounded inline-block font-medium transition-all duration-300 hover:bg-restaurant-primary/90 hover:shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply bg-restaurant-secondary text-white px-6 py-3 rounded inline-block font-medium transition-all duration-300 hover:bg-restaurant-secondary/90 hover:shadow-md;
+  }
+  
+  .btn-accent {
+    @apply bg-restaurant-accent text-white px-6 py-3 rounded inline-block font-medium transition-all duration-300 hover:bg-restaurant-accent/90 hover:shadow-md;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-restaurant-primary text-restaurant-primary px-6 py-3 rounded inline-block font-medium transition-all duration-300 hover:bg-restaurant-primary hover:text-white;
+  }
+}
