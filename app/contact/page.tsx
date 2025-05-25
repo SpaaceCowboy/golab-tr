@@ -92,7 +92,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-medium mb-1">Address</h3>
                     <p className="text-restaurant-dark/80">
-                      {location.address}, {location.city}, {location.state} {location.zip}
+                    Zeytinlik, Ataköy Marina, 34140 Bakırköy, İstanbul
                     </p>
                   </div>
                 </div>
@@ -132,12 +132,13 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-medium mb-1">Hours</h3>
                     <ul className="text-restaurant-dark/80 space-y-1">
-                      {location.hours.map((hour, index) => (
-                        <li key={index} className="flex justify-between">
-                          <span className="font-medium mr-8">{hour.day}:</span>
-                          <span>{hour.open} - {hour.close}</span>
+                      
+                        <li className="flex justify-between">
+                          <span className="font-medium mr-8">                    Every Day
+                          10:00AM - 00:30PM</span>
+                          <span></span>
                         </li>
-                      ))}
+                      
                     </ul>
                   </div>
                 </div>
@@ -259,7 +260,7 @@ export default function ContactPage() {
       {/* Map Section */}
       <section className="h-[500px] relative">
         <iframe 
-          src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.733248043791!2d${location.longitude}!3d${location.latitude}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2s123%20Cuisine%20St%2C%20Los%20Angeles%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1616000000000!5m2!1sen!2sus`}
+          src="https://maps.google.com/maps?q=Zeytinlik%2C%20Atak%C3%B6y%20Marina%2C%2034140%20Bak%C4%B1rk%C3%B6y%2C%20%C4%B0stanbul&t=m&z=14&output=embed&iwloc=near"
           width="100%"
           height="100%"
           style={{ border: 0 }}

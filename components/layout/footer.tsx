@@ -92,7 +92,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-3 text-restaurant-primary mt-1 flex-shrink-0" />
                 <span className="text-gray-300">
-                  {location.address}, {location.city}, {location.state} {location.zip}
+                Zeytinlik, Ataköy Marina, 34140 Bakırköy, İstanbul
                 </span>
               </li>
               <li className="flex items-center">

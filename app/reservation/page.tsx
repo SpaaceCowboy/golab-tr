@@ -403,10 +403,12 @@ export default function ReservationPage() {
                       <div>
                         <h4 className="font-medium">Reservation Policy</h4>
                         <ul className="text-sm text-gray-600 space-y-2 mt-1">
+                          {/*
                           <li>• Reservations can be made up to 30 days in advance</li>
                           <li>• A 15-minute grace period is provided</li>
                           <li>• For parties of 8 or more, please call us directly</li>
                           <li>• Credit card required for Friday/Saturday reservations</li>
+                          */}
                         </ul>
                       </div>
                     </div>

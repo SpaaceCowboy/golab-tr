@@ -42,25 +42,24 @@ export default function AboutPage() {
               <span className="text-restaurant-primary font-medium mb-2 inline-block">
                 Our Story
               </span>
-              <h2 className="mb-6">A Tradition of Excellence Since 1995</h2>
+              <h2 className="mb-6">A Tradition of Excellence Since 2022</h2>
               <p className="mb-4">
-                GoLab Restaurant was born from a passion for authentic cuisine and a desire to create 
-                memorable dining experiences. Founded in 1995 by Chef James Patel, our restaurant 
-                began as a small family establishment with a focus on traditional recipes passed 
-                down through generations.
+              The Story Of Golab Restaurant begins with the fusion of two culinary cultures, Iran and Turkey.
               </p>
               <p className="mb-4">
-                Over the years, we've grown into one of the most beloved dining destinations in the 
-                region, known for our warm hospitality, exquisite flavors, and dedication to quality. 
-                While we've evolved and expanded, we've remained true to our founding principles: 
-                using the finest ingredients, honoring traditional techniques, and treating every 
-                guest like family.
+              Golab is more than just a restaurant, it is a memorable experience.
+              </p>
+              <p className="mb-4">
+              In the Bakırköy district of Istanbul, on the seashore, there is a restaurant with a unique view. This restaurant is called Golab. Golab is a restaurant with a rich menu inspired by Turkish, Iranian, and modern international cuisines. The founders of this restaurant decided to open Golab to promote the richness of Iranian and Turkish culinary culture and to offer an unforgettable experience to their guests.
+              </p>
+              <p className="mb-4">
+              Golab’s menu includes flavors from international cuisines as well as traditional Turkish and Iranian dishes. Golab’s renowned and professional chef uses the highest quality ingredients and modern magical techniques when preparing his dishes.
+              </p>
+              <p className="mb-4">
+              Golab is popular with both local and foreign guests. The restaurant’s atmosphere is warm and inviting. The restaurant staff is friendly and professional.
               </p>
               <p>
-                Today, under the leadership of Chef Raj Patel, we continue to innovate while 
-                respecting our culinary heritage. Each dish tells a story of our journey, blending 
-                time-honored recipes with contemporary presentations to create an unforgettable 
-                dining experience.
+              Golab is one of the most popular Iranian restaurants in Istanbul with its full menu that appeals to all tastes.
               </p>
             </div>
             <div className="relative fancy-border p-4">
@@ -159,7 +158,7 @@ export default function AboutPage() {
         </div>
       </section>
       
-      {/* Meet the Team */}
+      {/* Meet the Team 
       <section className="section bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
@@ -194,8 +193,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      */}
       
-      {/* Awards & Recognition */}
+      {/* Awards & Recognition 
       <section className="section bg-restaurant-secondary text-white">
         <div className="container-custom">
           <div className="text-center mb-12">
@@ -236,6 +236,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      */}
       
       <Footer />
     </main>

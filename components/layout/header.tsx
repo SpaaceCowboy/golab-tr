@@ -75,9 +75,9 @@ export default function Header() {
               className="flex items-center text-restaurant-dark hover:text-restaurant-primary dark:text-white dark:hover:text-restaurant-primary text-sm transition-colors duration-300"
             >
               <PhoneCall size={16} className="mr-2" />
-              <span>(555) 123-4567</span>
+              <span>05354124005</span>
             </Link>
-            <Link href="/order" className="btn-primary">
+            <Link href="https://tgoyemek.com/restoranlar/195621" className="btn-primary">
               Order Online
             </Link>
           </div>
