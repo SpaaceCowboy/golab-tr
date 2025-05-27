@@ -86,10 +86,37 @@
   "Menu": {
     "title": "Menümüz",
     "subtitle": "Şeflerimizin en iyi mevsim malzemeleri ve otantik lezzetlerle hazırladığı seçkin menümüzü keşfedin.",
-    "categories": "Kategorilerimizi Keşfedin",
+    "categories": {
+      "title": "Kategorilerimizi Keşfedin",
+      "breakfast": "Kahvaltı",
+      "appetizers": "Başlangıçlar",
+      "mainCourse": "Ana Yemekler",
+      "iranianDishes": "İran Mutfağı",
+      "salads": "Salatalar",
+      "pizza": "Pizza",
+      "burgers": "Burgerler",
+      "pasta": "Makarna",
+      "desserts": "Tatlılar",
+      "cocktails": "Kokteyller",
+      "softDrinks": "Alkolsüz İçecekler",
+      "coffeeAndTea": "Kahve ve Çay",
+      "milkshakeAndSmoothies": "Milkshake ve Smoothie",
+      "alcoholBottles": "Alkollü İçecekler",
+      "beer": "Bira",
+      "champagne": "Şampanya"
+    },
     "search": "Menü öğeleri, malzemeler...",
     "noResults": "Eşleşen öğe bulunamadı",
-    "clearSearch": "Aramayı Temizle"
+    "clearSearch": "Aramayı Temizle",
+    "featured": "Öne Çıkan Ürünler",
+    "price": "Fiyat",
+    "ingredients": "İçindekiler",
+    "dietary": {
+      "vegetarian": "Vejetaryen",
+      "vegan": "Vegan",
+      "glutenFree": "Glutensiz",
+      "spicy": "Acılı"
+    }
   },
   "Gallery": {
     "title": "Galerimiz",

@@ -86,10 +86,37 @@
   "Menu": {
     "title": "Our Menu",
     "subtitle": "Discover our chef-crafted selections featuring the finest seasonal ingredients and authentic flavors for an unforgettable dining experience.",
-    "categories": "Explore Our Categories",
+    "categories": {
+      "title": "Explore Our Categories",
+      "breakfast": "Breakfast",
+      "appetizers": "Appetizers",
+      "mainCourse": "Main Course",
+      "iranianDishes": "Iranian Dishes",
+      "salads": "Salads",
+      "pizza": "Pizza",
+      "burgers": "Burgers",
+      "pasta": "Pasta",
+      "desserts": "Desserts",
+      "cocktails": "Cocktails",
+      "softDrinks": "Soft Drinks",
+      "coffeeAndTea": "Coffee and Tea",
+      "milkshakeAndSmoothies": "Milkshake & Smoothies",
+      "alcoholBottles": "Alcohol Bottles",
+      "beer": "Beer",
+      "champagne": "Champagne"
+    },
     "search": "Search menu items, ingredients...",
     "noResults": "No items found matching",
-    "clearSearch": "Clear search"
+    "clearSearch": "Clear search",
+    "featured": "Featured Items",
+    "price": "Price",
+    "ingredients": "Ingredients",
+    "dietary": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "glutenFree": "Gluten Free",
+      "spicy": "Spicy"
+    }
   },
   "Gallery": {
     "title": "Our Gallery",
