@@ -153,6 +153,46 @@
         "ghormeSebzi": {
           "name": "Korme Sebzi",
           "description": "Taze et, yoğun sebze ve kırmızı fasulye karışımı, İran Mutfağı"
+        },
+        "mahiche": {
+          "name": "Mahiçe",
+          "description": "Kuzu incik"
+        },
+        "zereshkPolo": {
+          "name": "Zereshk Polo Ba Morgh",
+          "description": "İran pilavı, soslu tavuk, zereshk"
+        },
+        "baghaliPolo": {
+          "name": "Baghali Polo",
+          "description": "Bakla ve dereotlu pilav"
+        }
+      },
+      "pizza": {
+        "mixPizza": {
+          "name": "Karışık Pizza",
+          "description": "Pizza hamuru, Pizza sosu, Pepperoni, sucuk, Rozbif pastırma, Renkli biberler, Mantar, Zeytin"
+        },
+        "garlicMeat": {
+          "name": "Sarımsaklı Etli",
+          "description": "Pizza hamuru, Pizza sosu, Bonfile dilimleri, Turşu, Közlenmiş kapya biber, Sarımsaklı mayonez, Maydanoz"
+        },
+        "margarita": {
+          "name": "Margarita",
+          "description": "Pizza hamuru, Pizza sosu, Pesto sos, Mozzarella, Roka"
+        }
+      },
+      "burgers": {
+        "golabBurger": {
+          "name": "Golab Burger",
+          "description": "Burger sos, karamelize soğan, marul, domates, turşu ve patates kızartması ile servis edilir"
+        },
+        "smokedBurger": {
+          "name": "Füme Etli Burger",
+          "description": "Burger sos, karamelize soğan, marul, domates, turşu ve patates kızartması ile servis edilir"
+        },
+        "chickenBurger": {
+          "name": "Tavuk Burger",
+          "description": "Marine edilmiş çıtır tavuk göğsü, coleslaw salata, cheddar, burger sos ve patates kızartması ile servis edilir"
         }
       },
       "desserts": {
@@ -199,6 +239,18 @@
         "newYorkSour": {
           "name": "New York Sour",
           "description": "Vişne şarabı, viski, yumurta akı, limon suyu, şurup"
+        },
+        "summerTime": {
+          "name": "Summer Time",
+          "description": "Tekila, limoncello, tatlı & ekşi, limon suyu, fesleğen, tuz"
+        },
+        "spicyMargarita": {
+          "name": "Acılı Margarita",
+          "description": "Tekila, triple sec, misket limonu suyu, jalapeno biber"
+        },
+        "oldFashioned": {
+          "name": "Old Fashioned",
+          "description": "Bourbon Viski, Angostura Bitter, Şeker"
         }
       },
       "softDrinks": {
@@ -260,6 +312,20 @@
         "mumm": {
           "name": "G.H Mumm Ice Extra",
           "description": "70cl"
+        }
+      },
+      "spirits": {
+        "blueLabel": {
+          "name": "Blue Label",
+          "size": "70cl"
+        },
+        "jackDanielsSingle": {
+          "name": "Jack Daniels Single Barrel",
+          "size": "70cl"
+        },
+        "chivas18": {
+          "name": "Chivas 18Y",
+          "size": "70cl"
         }
       }
     },
