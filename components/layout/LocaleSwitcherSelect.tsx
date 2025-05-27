@@ -19,7 +19,7 @@ type Props = {
 
 export default function LocaleSwitcherSelect({ defaultValue, label }: Props) {
   const router = useRouter();
-  
+
   const pathname = usePathname();
   const params = useParams();
 
@@ -28,7 +28,7 @@ export default function LocaleSwitcherSelect({ defaultValue, label }: Props) {
      
       // are used in combination with a given `pathname`. Since the two will
       // always match for the current route, we can skip runtime checks.
-      { pathname, params },
+      { pathname,  },
       { locale: nextLocale as Locale }
     );
   }
