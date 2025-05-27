@@ -1,8 +1,135 @@
-
 {
-    "HomePage": {
-    "title": "Merhaba dünya!",
-    "about": "Hakkında sayfasına git"
+  "HomePage": {
+    "welcome": "GoLab Restaurant'a Hoşgeldiniz",
+    "subtitle": "Otantik lezzetlerle en iyi yemek deneyimini yaşayın",
+    "heroSlides": {
+      "slide1": {
+        "title": "Otantik Mutfak",
+        "subtitle": "Geleneksel yemeklerin gerçek lezzetlerini keşfedin"
+      },
+      "slide2": {
+        "title": "Zarif Yemek Deneyimi",
+        "subtitle": "Sıcak ve davetkar atmosferimizde kendinizi kaybetmeye hazır olun"
+      },
+      "slide3": {
+        "title": "Usta Şefler",
+        "subtitle": "Şeflerimiz her yemeği tutkuyla hazırlıyor"
+      }
+    },
+    "viewMenu": "Menüyü Görüntüle",
+    "bookTable": "Masa Rezervasyonu"
+  },
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "menu": "Menü",
+    "about": "Hakkımızda",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "orderOnline": "Online Sipariş",
+    "reservation": "Rezervasyon"
+  },
+  "About": {
+    "title": "Hakkımızda",
+    "subtitle": "Yolculuğumuz, tutkumuz ve mutfak mükemmelliğine olan bağlılığımız",
+    "story": {
+      "title": "Hikayemiz",
+      "subtitle": "2022'den Beri Mükemmellik Geleneği",
+      "content": {
+        "p1": "Golab Restaurant'ın hikayesi, İran ve Türk mutfak kültürlerinin birleşimiyle başlar.",
+        "p2": "Golab sadece bir restoran değil, unutulmaz bir deneyimdir.",
+        "p3": "İstanbul'un Bakırköy ilçesinde, deniz kıyısında, eşsiz manzarası olan bir restoran var. Bu restoranın adı Golab. Golab, Türk, İran ve modern uluslararası mutfaklarından ilham alan zengin menüye sahip bir restorandır. Bu restoranın kurucuları, İran ve Türk mutfak kültürünün zenginliğini tanıtmak ve misafirlerine unutulmaz bir deneyim sunmak için Golab'ı açmaya karar verdiler.",
+        "p4": "Golab'ın menüsü, geleneksel Türk ve İran yemeklerinin yanı sıra uluslararası mutfaklardan da lezzetler içerir. Golab'ın tanınmış ve profesyonel şefi, yemeklerini hazırlarken en kaliteli malzemeleri ve modern sihirli teknikleri kullanır.",
+        "p5": "Golab hem yerli hem de yabancı misafirler tarafından tercih edilmektedir. Restoranın atmosferi sıcak ve davetkar. Restoran personeli dostane ve profesyonel.",
+        "p6": "Golab, her damak tadına hitap eden zengin menüsüyle İstanbul'un en popüler İran restoranlarından biridir."
+      }
+    },
+    "values": {
+      "title": "Felsefemiz",
+      "subtitle": "Değerlerimizle Yönlendiriliyoruz",
+      "description": "GoLab Restaurant'ta, yemek anlayışımız menümüzden servisimize kadar her şeyi etkileyen temel prensiplerle şekilleniyor.",
+      "quality": {
+        "title": "Kaliteli Malzemeler",
+        "description": "Kalite ve sürdürülebilirlik konusundaki taahhüdümüzü paylaşan çiftçiler ve tedarikçilerle doğrudan çalışarak en iyi yerel ve ithal malzemeleri tedarik ediyoruz."
+      },
+      "artistry": {
+        "title": "Mutfak Sanatı",
+        "description": "Yetenekli şeflerimiz, görsel olarak etkileyici ve lezzetli yemekler yaratmak için geleneksel teknikleri yenilikçi yaklaşımlarla birleştiriyor."
+      },
+      "service": {
+        "title": "Üstün Hizmet",
+        "description": "Yemek yemenin sadece yemekten ibaret olmadığına inanıyoruz—bu bir deneyimdir. Özenli personelimiz, her misafirimizin kendini karşılanmış, değerli ve tamamen memnun hissetmesini sağlar."
+      }
     }
+  },
+  "Contact": {
+    "title": "İletişim",
+    "subtitle": "Bir sorunuz mu var veya rezervasyon mu yaptırmak istiyorsunuz? Sizden haber almaktan mutluluk duyarız.",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "send": "Mesaj Gönder",
+      "success": "Mesajınız için teşekkürler!",
+      "successDetail": "En kısa sürede size geri dönüş yapacağız."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "description": "Her türlü soru, endişe veya geri bildiriminiz için size yardımcı olmak üzere buradayız. Aşağıdaki yöntemlerden herhangi biriyle bize ulaşın, en kısa sürede yanıt vereceğiz.",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "hours": "Çalışma Saatleri"
     }
-
+  },
+  "Menu": {
+    "title": "Menümüz",
+    "subtitle": "Şeflerimizin en iyi mevsim malzemeleri ve otantik lezzetlerle hazırladığı seçkin menümüzü keşfedin.",
+    "categories": "Kategorilerimizi Keşfedin",
+    "search": "Menü öğeleri, malzemeler...",
+    "noResults": "Eşleşen öğe bulunamadı",
+    "clearSearch": "Aramayı Temizle"
+  },
+  "Gallery": {
+    "title": "Galerimiz",
+    "subtitle": "Restoranımız, mutfağımız ve unutulmaz anlarımızdan görsel bir yolculuğa çıkın",
+    "viewAll": "Tüm Galeriyi Görüntüle",
+    "categories": {
+      "all": "Tümü",
+      "interior": "İç Mekan",
+      "food": "Yemekler",
+      "events": "Etkinlikler",
+      "kitchen": "Mutfak",
+      "bar": "Bar"
+    }
+  },
+  "Reservation": {
+    "title": "Masa Rezervasyonu",
+    "subtitle": "GoLab Restaurant'ta yemek deneyiminiz için rezervasyon yapın",
+    "form": {
+      "date": "Tarih",
+      "time": "Saat",
+      "guests": "Misafir Sayısı",
+      "occasion": "Özel Gün (İsteğe Bağlı)",
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "specialRequests": "Özel İstekler (İsteğe Bağlı)",
+      "terms": "Rezervasyon politikasını kabul ediyorum ve 15 dakikalık tolerans süresinin ardından rezervasyonun iptal edilebileceğini anlıyorum.",
+      "confirm": "Rezervasyonu Onayla",
+      "success": {
+        "title": "Rezervasyon Onaylandı!",
+        "message": "GoLab Restaurant'ı tercih ettiğiniz için teşekkür ederiz. Size hizmet etmek için sabırsızlanıyoruz!"
+      }
+    }
+  },
+  "Footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactUs": "Bize Ulaşın",
+    "openingHours": "Çalışma Saatleri",
+    "rights": "© {year} GoLab Restaurant. Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları"
+  }
+}
