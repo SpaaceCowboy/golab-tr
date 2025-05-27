@@ -79,6 +79,22 @@
         "pancake": {
           "name": "Pankek",
           "description": "Dört pankek diliminde üç kat meyve ve Nutella"
+        },
+        "friedEggsSausage": {
+          "name": "Sucuklu Sahanda Yumurta",
+          "description": "Kaşar peyniri ve sucuk ile"
+        },
+        "friedEggs": {
+          "name": "Sahanda Yumurta",
+          "description": "Klasik sahanda yumurta"
+        },
+        "friedEggsCheddar": {
+          "name": "Kaşarlı Sahanda Yumurta",
+          "description": "Eritilmiş kaşar peynirli sahanda yumurta"
+        },
+        "cheesePlate": {
+          "name": "Peynir Tabağı",
+          "description": "Üç çeşit peynir seçimi"
         }
       },
       "appetizers": {
@@ -108,6 +124,54 @@
           "name": "Levrek",
           "description": "Fondant patates, rezene, semizotu, misket limonu, chimichurri sos, baby turp, yeşil yağ"
         }
+      },
+      "iranianDishes": {
+        "siniMakhsoos": {
+          "name": "Sini Mahsus",
+          "description": "Lokma kebap, kemiksiz barbekü tavuk, şişlik kebap, but veya boyun tabağı"
+        },
+        "golabSpecial": {
+          "name": "Golab Özel",
+          "description": "Şefin özel seçimi"
+        },
+        "soltaniKebab": {
+          "name": "Sultani Kebap",
+          "description": "Bir Şiş Kubide Ve Bir Şiş Berg Kebap"
+        },
+        "shishlik": {
+          "name": "Şişlik",
+          "description": "Izgara Kuzu Pirzola"
+        },
+        "barg": {
+          "name": "Berg",
+          "description": "Özel Soslu Izgara Dana Bonfile"
+        },
+        "loghme": {
+          "name": "Lokma",
+          "description": "Kıyma ve kuzu eti, soğan İran yemeği"
+        },
+        "ghormeSebzi": {
+          "name": "Korme Sebzi",
+          "description": "Taze et, yoğun sebze ve kırmızı fasulye karışımı, İran Mutfağı"
+        }
+      },
+      "desserts": {
+        "fruitPlate": {
+          "name": "Meyve Tabağı",
+          "description": "Mevsim meyveleri seçkisi"
+        },
+        "sanSebastian": {
+          "name": "San Sebastian Cheesecake",
+          "description": "Belçika Çikolatalı San Sebastian Cheesecake"
+        },
+        "tiramisu": {
+          "name": "Tiramisu",
+          "description": "Tiramisu kreması, bisküvi, Espresso, Toz Kahve, Kakao"
+        },
+        "strawberryPuff": {
+          "name": "Çilekli Milföy",
+          "description": "Pasta kreması, Milföy hamuru, Pudra şekeri, Çilek"
+        }
       }
     },
     "drinks": {
@@ -123,6 +187,18 @@
         "mojito": {
           "name": "Gerçek Mojito",
           "description": "Beyaz rom, limon suyu, nane, soda, şurup"
+        },
+        "espressoMartini": {
+          "name": "Espresso Martini",
+          "description": "Votka, krema, kahve likörü"
+        },
+        "bikiniMartini": {
+          "name": "Bikini Martini",
+          "description": "Malibu, votka, ananas suyu, nar şurubu"
+        },
+        "newYorkSour": {
+          "name": "New York Sour",
+          "description": "Vişne şarabı, viski, yumurta akı, limon suyu, şurup"
         }
       },
       "softDrinks": {
@@ -152,6 +228,38 @@
         "latte": {
           "name": "Cafe Latte",
           "description": "Espresso ve buharlanmış süt"
+        }
+      },
+      "beer": {
+        "amsterdam": {
+          "name": "Amsterdam",
+          "size": "50cl"
+        },
+        "corona": {
+          "name": "Corona",
+          "size": "35cl"
+        },
+        "bud": {
+          "name": "Bud",
+          "size": "50cl"
+        },
+        "efes": {
+          "name": "Efes Pilsen",
+          "size": "50cl"
+        }
+      },
+      "champagne": {
+        "moetChandon": {
+          "name": "Moet & Chandon",
+          "description": "70cl"
+        },
+        "moetIceRose": {
+          "name": "Moet & Chandon Ice Rose",
+          "description": "70cl"
+        },
+        "mumm": {
+          "name": "G.H Mumm Ice Extra",
+          "description": "70cl"
         }
       }
     },
