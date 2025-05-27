@@ -8,7 +8,7 @@ import { menuItems } from "@/lib/data";
 
 export default function MenuList() {
   const [searchTerm, setSearchTerm] = useState("");
-  const categories = [...new Set(menuItems.map(item => item.category))];
+  const categories = Array.from(new Set(menuItems.map(item => item.category)));
   
   const filteredItems = searchTerm
     ? menuItems.filter(item => 

@@ -80,7 +80,7 @@ export default function FeaturedMenu() {
           viewport={{ once: true }}
         >
           {filteredItems.map((item) => (
-            <motion.div key={item.id} className="menu-item-card" variants={item}>
+            <motion.div key={item.id} className="menu-item-card" >
               <div className="h-64 relative overflow-hidden">
                 <Image
                   src={item.image}
