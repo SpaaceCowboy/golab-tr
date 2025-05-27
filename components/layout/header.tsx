@@ -36,7 +36,7 @@ export default function Header() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 text-[#C38C22]" ,
         scrolled
           ? "bg-white shadow-md py-3 dark:bg-restaurant-dark"
           : "bg-transparent"
@@ -58,12 +58,11 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-          <LocaleSwitcher />
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-restaurant-dark hover:text-restaurant-primary dark:text-white dark:hover:text-restaurant-primary text-sm font-medium relative gold-underline transition-colors duration-300"
+                className=" hover:text-restaurant-primary dark:text-white dark:hover:text-restaurant-primary text-sm font-medium relative gold-underline transition-colors duration-300"
               >
                 {item.name}
               </Link>
@@ -74,14 +73,12 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <Link
               href="/contact"
-              className="flex items-center text-restaurant-dark hover:text-restaurant-primary dark:text-white dark:hover:text-restaurant-primary text-sm transition-colors duration-300"
+              className="flex items-center  hover:text-restaurant-primary dark:text-white dark:hover:text-restaurant-primary text-sm transition-colors duration-300"
             >
               <PhoneCall size={16} className="mr-2" />
               <span>05354124005</span>
             </Link>
-            <Link href="https://tgoyemek.com/restoranlar/195621" className="btn-primary">
-              Order Online
-            </Link>
+            <LocaleSwitcher />
           </div>
 
           {/* Mobile Menu Button */}
