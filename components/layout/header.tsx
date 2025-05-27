@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
+import {Link} from '@/i18n/navigation';
 import { Menu, X, PhoneCall, ShoppingCart } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -57,6 +58,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+          <LocaleSwitcher />
             {navItems.map((item) => (
               <Link
                 key={item.name}

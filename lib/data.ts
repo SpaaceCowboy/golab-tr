@@ -1649,40 +1649,7 @@ export const categories: Category[] = [
 
 ];
 
-export const testimonials: Testimonial[] = [
-  {
-    id: 1,
-    name: 'Sarah Johnson',
-    role: 'Food Enthusiast',
-    content: 'The food here is absolutely amazing! The flavors are authentic and the service is exceptional. I highly recommend the Butter Chicken and Garlic Naan.',
-    rating: 5,
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  },
-  {
-    id: 2,
-    name: 'David Chen',
-    role: 'Regular Customer',
-    content: 'GoLab Restaurant has become our family\'s favorite dining spot. The menu offers a great variety and the staff always makes us feel welcome.',
-    rating: 5,
-    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  },
-  {
-    id: 3,
-    name: 'Emily Rodriguez',
-    role: 'Food Blogger',
-    content: 'As someone who tries new restaurants weekly, I can confidently say that GoLab stands out with its authentic flavors and beautiful presentation. Their biryani is a must-try!',
-    rating: 4,
-    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  },
-  {
-    id: 4,
-    name: 'Michael Thompson',
-    role: 'Local Resident',
-    content: 'I\'ve been coming here for years and the quality has never disappointed. The owners truly care about providing an exceptional dining experience.',
-    rating: 5,
-    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  },
-];
+
 
 export const staff: Staff[] = [
   {

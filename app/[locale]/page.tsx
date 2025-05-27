@@ -5,8 +5,14 @@ import ReservationCTA from "@/components/home/reservation-cta";
 import GalleryPreview from "@/components/home/gallery-preview";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import { Link } from "@/i18n/navigation";
+import {useTranslations} from 'next-intl';
 
-export default function Home() {
+
+
+export default async function Home() {
+
+
   return (
     <main>
       <Header />
