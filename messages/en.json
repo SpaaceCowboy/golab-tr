@@ -181,6 +181,34 @@
           "description": "Pizza dough, Pizza sauce, Pesto sauce, Mozzarella, Arugula"
         }
       },
+      "pasta": {
+        "pestoFettuccine": {
+          "name": "Pesto Fettuccine with Chicken",
+          "description": "Grilled Chicken Breast, Basil Pesto, Walnuts and Parmesan"
+        },
+        "tagliatelle": {
+          "name": "Tagliatelle Alfredo with Chicken",
+          "description": "Grilled chicken breast, Tagliatelle pasta, parmesan, cream, mushroom, basil, butter"
+        }
+      },
+      "salads": {
+        "caesarSalad": {
+          "name": "Chicken Caesar Salad",
+          "description": "Grilled Chicken, Lettuce, Croutons, Caesar Sauce"
+        },
+        "greenSalad": {
+          "name": "Green Salad",
+          "description": "Arugula, Green Apple and Crunchy Walnuts, Rice Vinegar, Pomegranate, Orange and Cucumber"
+        },
+        "shiraziSalad": {
+          "name": "Shirazi Salad",
+          "description": "Cucumber, Tomato, Onion, Lemon juice"
+        },
+        "shepherdSalad": {
+          "name": "Tulum Cheese Shepherd Salad",
+          "description": "Colorful Tomatoes, Cucumber, Green pepper, California pepper, Red pepper, Purple Onion, Basil, Lemon vinaigrette"
+        }
+      },
       "burgers": {
         "golabBurger": {
           "name": "Golab Burger",
@@ -280,6 +308,28 @@
         "latte": {
           "name": "Cafe Latte",
           "description": "Espresso with steamed milk"
+        }
+      },
+      "milkshakeAndSmoothies": {
+        "tripleBSmoothie": {
+          "name": "Triple B Smoothie",
+          "description": "Strawberry, blueberry, banana, milk"
+        },
+        "coffeeCreamShake": {
+          "name": "Coffee Cream Shake",
+          "description": "Espresso, cream, ice cream, milk"
+        },
+        "baseShake": {
+          "name": "Base Shake",
+          "description": "Strawberry, chocolate, vanilla, cream"
+        },
+        "barbieShake": {
+          "name": "Barbie Shake",
+          "description": "Strawberry, blueberry, raspberry"
+        },
+        "oreoShake": {
+          "name": "Oreo Shake",
+          "description": "Oreo biscuit, ice cream, milk"
         }
       },
       "beer": {
