@@ -79,6 +79,22 @@
         "pancake": {
           "name": "Pancake",
           "description": "Three layers of fruit and Nutella in four pancake slices"
+        },
+        "friedEggsSausage": {
+          "name": "Fried Eggs with Sausage",
+          "description": "Cheddar cheese with Sausage"
+        },
+        "friedEggs": {
+          "name": "Fried Eggs",
+          "description": "Classic fried eggs"
+        },
+        "friedEggsCheddar": {
+          "name": "Fried Eggs with Cheddar Cheese",
+          "description": "Fried eggs topped with melted cheddar cheese"
+        },
+        "cheesePlate": {
+          "name": "Cheese Plate",
+          "description": "Selection of three types of cheese"
         }
       },
       "appetizers": {
@@ -108,6 +124,54 @@
           "name": "Sea Bass",
           "description": "Fondant potato, fennel, purslane, lime, chimichurri sauce, baby radish, green oil"
         }
+      },
+      "iranianDishes": {
+        "siniMakhsoos": {
+          "name": "Sini Makhsoos",
+          "description": "Loghme kebab, boneless barbecue chicken, shishlik kebab, muscle or neck plate"
+        },
+        "golabSpecial": {
+          "name": "Golab Special",
+          "description": "Chef's special selection"
+        },
+        "soltaniKebab": {
+          "name": "Soltani Kebab",
+          "description": "A Shish Kubide And A Shish Berg Kebab"
+        },
+        "shishlik": {
+          "name": "Shishlik",
+          "description": "Grilled Lamb Chops"
+        },
+        "barg": {
+          "name": "Barg",
+          "description": "Grilled Beef Tenderloin with Special Sauce"
+        },
+        "loghme": {
+          "name": "Loghme",
+          "description": "Ground beef and lamb, onions Iranian food"
+        },
+        "ghormeSebzi": {
+          "name": "Ghorme Sebzi",
+          "description": "A mixture of fresh meat, dense vegetables and red beans, Iranian Cuisine"
+        }
+      },
+      "desserts": {
+        "fruitPlate": {
+          "name": "Fruit Plate",
+          "description": "Selection of fresh seasonal fruits"
+        },
+        "sanSebastian": {
+          "name": "San Sebastian Cheesecake",
+          "description": "San Sebastian Cheesecake with Belgian Chocolate"
+        },
+        "tiramisu": {
+          "name": "Tiramisu",
+          "description": "Tiramisu cream, biscuits, Espresso, Granulated Coffee, Cocoa"
+        },
+        "strawberryPuff": {
+          "name": "Strawberry Puff Pastry",
+          "description": "Pastry cream, Puff pastry wafer, Powdered sugar, Strawberry"
+        }
       }
     },
     "drinks": {
@@ -123,6 +187,18 @@
         "mojito": {
           "name": "Real Mojito",
           "description": "White rum, lemon juice, mint, soda, syrup"
+        },
+        "espressoMartini": {
+          "name": "Espresso Martini",
+          "description": "Vodka, cream, coffee liqueur"
+        },
+        "bikiniMartini": {
+          "name": "Bikini Martini",
+          "description": "Malibu, vodka, pineapple juice, granadian syrup"
+        },
+        "newYorkSour": {
+          "name": "New York Sour",
+          "description": "Cherry wine, whiskey, white egg, lemon juice, syrup"
         }
       },
       "softDrinks": {
@@ -152,6 +228,38 @@
         "latte": {
           "name": "Cafe Latte",
           "description": "Espresso with steamed milk"
+        }
+      },
+      "beer": {
+        "amsterdam": {
+          "name": "Amsterdam",
+          "size": "50cl"
+        },
+        "corona": {
+          "name": "Corona",
+          "size": "35cl"
+        },
+        "bud": {
+          "name": "Bud",
+          "size": "50cl"
+        },
+        "efes": {
+          "name": "Efes Pilsen",
+          "size": "50cl"
+        }
+      },
+      "champagne": {
+        "moetChandon": {
+          "name": "Moet & Chandon",
+          "description": "70cl"
+        },
+        "moetIceRose": {
+          "name": "Moet & Chandon Ice Rose",
+          "description": "70cl"
+        },
+        "mumm": {
+          "name": "G.H Mumm Ice Extra",
+          "description": "70cl"
         }
       }
     },
