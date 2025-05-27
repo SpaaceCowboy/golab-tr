@@ -195,6 +195,34 @@
           "description": "Marine edilmiş çıtır tavuk göğsü, coleslaw salata, cheddar, burger sos ve patates kızartması ile servis edilir"
         }
       },
+      "pasta": {
+        "pestoFettuccine": {
+          "name": "Pesto Soslu Fettuccine Tavuklu",
+          "description": "Izgara Tavuk Göğsü, Fesleğen Pesto, Ceviz ve Parmesan"
+        },
+        "tagliatelle": {
+          "name": "Tavuklu Tagliatelle Alfredo",
+          "description": "Izgara tavuk göğsü, Tagliatelle makarna, parmesan, krema, mantar, fesleğen, tereyağı"
+        }
+      },
+      "salads": {
+        "caesarSalad": {
+          "name": "Tavuklu Sezar Salata",
+          "description": "Izgara Tavuk, Marul, Kruton, Sezar Sos"
+        },
+        "greenSalad": {
+          "name": "Yeşil Salata",
+          "description": "Roka, Yeşil Elma ve Kıtır Ceviz, Pirinç Sirkesi, Nar, Portakal ve Salatalık"
+        },
+        "shiraziSalad": {
+          "name": "Şirazi Salata",
+          "description": "Salatalık, Domates, Soğan, Limon suyu"
+        },
+        "shepherdSalad": {
+          "name": "Tulum Peynirli Çoban Salata",
+          "description": "Renkli Domatesler, Salatalık, Yeşil biber, California biber, Kırmızı biber, Mor Soğan, Fesleğen, Limon sos"
+        }
+      },
       "desserts": {
         "fruitPlate": {
           "name": "Meyve Tabağı",
@@ -280,6 +308,28 @@
         "latte": {
           "name": "Cafe Latte",
           "description": "Espresso ve buharlanmış süt"
+        }
+      },
+      "milkshakeAndSmoothies": {
+        "tripleBSmoothie": {
+          "name": "Üçlü B Smoothie",
+          "description": "Çilek, yaban mersini, muz, süt"
+        },
+        "coffeeCreamShake": {
+          "name": "Kahveli Kremalı Shake",
+          "description": "Espresso, krema, dondurma, süt"
+        },
+        "baseShake": {
+          "name": "Klasik Shake",
+          "description": "Çilek, çikolata, vanilya, krema"
+        },
+        "barbieShake": {
+          "name": "Barbie Shake",
+          "description": "Çilek, yaban mersini, ahududu"
+        },
+        "oreoShake": {
+          "name": "Oreo Shake",
+          "description": "Oreo bisküvi, dondurma, süt"
         }
       },
       "beer": {
