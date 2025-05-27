@@ -1,6 +1,135 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+  "HomePage": {
+    "welcome": "Welcome to GoLab Restaurant",
+    "subtitle": "Experience the finest dining with authentic flavors",
+    "heroSlides": {
+      "slide1": {
+        "title": "Authentic Cuisine",
+        "subtitle": "Experience the true flavors of traditional cooking"
+      },
+      "slide2": {
+        "title": "Elegant Dining",
+        "subtitle": "Immerse yourself in our warm and inviting atmosphere"
+      },
+      "slide3": {
+        "title": "Master Chefs",
+        "subtitle": "Our culinary experts craft every dish with passion"
+      }
+    },
+    "viewMenu": "View Our Menu",
+    "bookTable": "Book a Table"
+  },
+  "Navigation": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "orderOnline": "Order Online",
+    "reservation": "Reservation"
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "Our journey, our passion, and our commitment to culinary excellence",
+    "story": {
+      "title": "Our Story",
+      "subtitle": "A Tradition of Excellence Since 2022",
+      "content": {
+        "p1": "The Story Of Golab Restaurant begins with the fusion of two culinary cultures, Iran and Turkey.",
+        "p2": "Golab is more than just a restaurant, it is a memorable experience.",
+        "p3": "In the Bakırköy district of Istanbul, on the seashore, there is a restaurant with a unique view. This restaurant is called Golab. Golab is a restaurant with a rich menu inspired by Turkish, Iranian, and modern international cuisines. The founders of this restaurant decided to open Golab to promote the richness of Iranian and Turkish culinary culture and to offer an unforgettable experience to their guests.",
+        "p4": "Golab's menu includes flavors from international cuisines as well as traditional Turkish and Iranian dishes. Golab's renowned and professional chef uses the highest quality ingredients and modern magical techniques when preparing his dishes.",
+        "p5": "Golab is popular with both local and foreign guests. The restaurant's atmosphere is warm and inviting. The restaurant staff is friendly and professional.",
+        "p6": "Golab is one of the most popular Iranian restaurants in Istanbul with its full menu that appeals to all tastes."
+      }
+    },
+    "values": {
+      "title": "Our Philosophy",
+      "subtitle": "Guided by Our Values",
+      "description": "At GoLab Restaurant, our approach to dining is shaped by core principles that influence everything from our menu to our service.",
+      "quality": {
+        "title": "Quality Ingredients",
+        "description": "We source the finest local and imported ingredients, working directly with farmers and suppliers who share our commitment to quality and sustainability."
+      },
+      "artistry": {
+        "title": "Culinary Artistry",
+        "description": "Our team of talented chefs combines traditional techniques with innovative approaches to create dishes that are as visually stunning as they are delicious."
+      },
+      "service": {
+        "title": "Exceptional Service",
+        "description": "We believe dining is about more than just food—it's an experience. Our attentive staff ensures every guest feels welcomed, valued, and completely satisfied."
+      }
     }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or want to make a reservation? We'd love to hear from you.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "success": "Thank you for your message!",
+      "successDetail": "We will get back to you as soon as possible."
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "We're here to assist you with any questions, concerns, or feedback you may have. Reach out to us through any of the following methods, and we'll respond promptly.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Hours"
+    }
+  },
+  "Menu": {
+    "title": "Our Menu",
+    "subtitle": "Discover our chef-crafted selections featuring the finest seasonal ingredients and authentic flavors for an unforgettable dining experience.",
+    "categories": "Explore Our Categories",
+    "search": "Search menu items, ingredients...",
+    "noResults": "No items found matching",
+    "clearSearch": "Clear search"
+  },
+  "Gallery": {
+    "title": "Our Gallery",
+    "subtitle": "Take a visual journey through our restaurant, cuisine, and memorable moments",
+    "viewAll": "View Full Gallery",
+    "categories": {
+      "all": "All",
+      "interior": "Interior",
+      "food": "Food",
+      "events": "Events",
+      "kitchen": "Kitchen",
+      "bar": "Bar"
+    }
+  },
+  "Reservation": {
+    "title": "Book a Table",
+    "subtitle": "Reserve your dining experience at GoLab Restaurant",
+    "form": {
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "occasion": "Occasion (Optional)",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "specialRequests": "Special Requests (Optional)",
+      "terms": "I acknowledge the reservation policy and understand that a 15-minute grace period is provided, after which the reservation may be released.",
+      "confirm": "Confirm Reservation",
+      "success": {
+        "title": "Reservation Confirmed!",
+        "message": "Thank you for choosing GoLab Restaurant. We're looking forward to serving you!"
+      }
+    }
+  },
+  "Footer": {
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "openingHours": "Opening Hours",
+    "rights": "© {year} GoLab Restaurant. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
+}
