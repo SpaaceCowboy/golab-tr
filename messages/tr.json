@@ -376,6 +376,30 @@
         "chivas18": {
           "name": "Chivas 18Y",
           "size": "70cl"
+        },
+        "hennesyXO": {
+          "name": "Hennesy X.O",
+          "description": "70cl"
+        },
+        "hennesyVS": {
+          "name": "Hennesy V.S",
+          "description": "70cl"
+        },
+        "greyGoose": {
+          "name": "Grey Goose",
+          "description": "70cl"
+        },
+        "belvedere": {
+          "name": "Belvedere Votka",
+          "description": "70cl"
+        },
+        "yeniRaki": {
+          "name": "Yeni Rakı",
+          "description": "100cl, 70cl, 50cl, 35cl seçenekleri mevcuttur"
+        },
+        "beylerbeyiGobek": {
+          "name": "Beylerbeyi Göbek",
+          "description": "100cl, 70cl, 50cl, 35cl seçenekleri mevcuttur"
         }
       }
     },
