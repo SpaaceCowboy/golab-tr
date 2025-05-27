@@ -28,61 +28,6 @@
     "orderOnline": "Online Sipariş",
     "reservation": "Rezervasyon"
   },
-  "About": {
-    "title": "Hakkımızda",
-    "subtitle": "Yolculuğumuz, tutkumuz ve mutfak mükemmelliğine olan bağlılığımız",
-    "story": {
-      "title": "Hikayemiz",
-      "subtitle": "2022'den Beri Mükemmellik Geleneği",
-      "content": {
-        "p1": "Golab Restaurant'ın hikayesi, İran ve Türk mutfak kültürlerinin birleşimiyle başlar.",
-        "p2": "Golab sadece bir restoran değil, unutulmaz bir deneyimdir.",
-        "p3": "İstanbul'un Bakırköy ilçesinde, deniz kıyısında, eşsiz manzarası olan bir restoran var. Bu restoranın adı Golab. Golab, Türk, İran ve modern uluslararası mutfaklarından ilham alan zengin menüye sahip bir restorandır. Bu restoranın kurucuları, İran ve Türk mutfak kültürünün zenginliğini tanıtmak ve misafirlerine unutulmaz bir deneyim sunmak için Golab'ı açmaya karar verdiler.",
-        "p4": "Golab'ın menüsü, geleneksel Türk ve İran yemeklerinin yanı sıra uluslararası mutfaklardan da lezzetler içerir. Golab'ın tanınmış ve profesyonel şefi, yemeklerini hazırlarken en kaliteli malzemeleri ve modern sihirli teknikleri kullanır.",
-        "p5": "Golab hem yerli hem de yabancı misafirler tarafından tercih edilmektedir. Restoranın atmosferi sıcak ve davetkar. Restoran personeli dostane ve profesyonel.",
-        "p6": "Golab, her damak tadına hitap eden zengin menüsüyle İstanbul'un en popüler İran restoranlarından biridir."
-      }
-    },
-    "values": {
-      "title": "Felsefemiz",
-      "subtitle": "Değerlerimizle Yönlendiriliyoruz",
-      "description": "GoLab Restaurant'ta, yemek anlayışımız menümüzden servisimize kadar her şeyi etkileyen temel prensiplerle şekilleniyor.",
-      "quality": {
-        "title": "Kaliteli Malzemeler",
-        "description": "Kalite ve sürdürülebilirlik konusundaki taahhüdümüzü paylaşan çiftçiler ve tedarikçilerle doğrudan çalışarak en iyi yerel ve ithal malzemeleri tedarik ediyoruz."
-      },
-      "artistry": {
-        "title": "Mutfak Sanatı",
-        "description": "Yetenekli şeflerimiz, görsel olarak etkileyici ve lezzetli yemekler yaratmak için geleneksel teknikleri yenilikçi yaklaşımlarla birleştiriyor."
-      },
-      "service": {
-        "title": "Üstün Hizmet",
-        "description": "Yemek yemenin sadece yemekten ibaret olmadığına inanıyoruz—bu bir deneyimdir. Özenli personelimiz, her misafirimizin kendini karşılanmış, değerli ve tamamen memnun hissetmesini sağlar."
-      }
-    }
-  },
-  "Contact": {
-    "title": "İletişim",
-    "subtitle": "Bir sorunuz mu var veya rezervasyon mu yaptırmak istiyorsunuz? Sizden haber almaktan mutluluk duyarız.",
-    "form": {
-      "name": "Adınız",
-      "email": "E-posta Adresi",
-      "phone": "Telefon Numarası",
-      "subject": "Konu",
-      "message": "Mesajınız",
-      "send": "Mesaj Gönder",
-      "success": "Mesajınız için teşekkürler!",
-      "successDetail": "En kısa sürede size geri dönüş yapacağız."
-    },
-    "info": {
-      "title": "İletişim Bilgileri",
-      "description": "Her türlü soru, endişe veya geri bildiriminiz için size yardımcı olmak üzere buradayız. Aşağıdaki yöntemlerden herhangi biriyle bize ulaşın, en kısa sürede yanıt vereceğiz.",
-      "address": "Adres",
-      "phone": "Telefon",
-      "email": "E-posta",
-      "hours": "Çalışma Saatleri"
-    }
-  },
   "Menu": {
     "title": "Menümüz",
     "subtitle": "Şeflerimizin en iyi mevsim malzemeleri ve otantik lezzetlerle hazırladığı seçkin menümüzü keşfedin.",
@@ -104,6 +49,111 @@
       "alcoholBottles": "Alkollü İçecekler",
       "beer": "Bira",
       "champagne": "Şampanya"
+    },
+    "items": {
+      "breakfast": {
+        "turkishBreakfast": {
+          "name": "İki Kişilik Türk Kahvaltısı",
+          "description": "İki kişilik geleneksel Türk kahvaltı tabağı"
+        },
+        "golabParisEggs": {
+          "name": "Golab Paris Soslu Yumurta",
+          "description": "İngiliz muffini üzerinde dana pastırma, 2 poşe yumurta ve hollandaise sos, fırınlanmış yan salata ile servis edilir"
+        },
+        "breakfastPlate": {
+          "name": "Kahvaltı Tabağı",
+          "description": "Ezine beyaz peynir, Kars kaşarı, Çengelköy salatalık, domates, bal, vişne reçeli, Nutella, haşlanmış yumurta, ekmek sepeti, 2 çay ile servis edilir"
+        },
+        "avocadoEggs": {
+          "name": "Avokadolu Poşe Yumurta",
+          "description": "Avokado tost, 2 poşe yumurta, taze soğan, yan salata ile servis edilir"
+        },
+        "menemen": {
+          "name": "Menemen",
+          "description": "Yumurta, domates"
+        },
+        "frenchOmelet": {
+          "name": "Fransız Omlet",
+          "description": "Sade peynirli ve mantarlı salata ile servis edilir"
+        },
+        "pancake": {
+          "name": "Pankek",
+          "description": "Dört pankek diliminde üç kat meyve ve Nutella"
+        }
+      },
+      "appetizers": {
+        "lentilSoup": {
+          "name": "Mercimek Çorbası",
+          "description": "Mercimek çorbası, Limon, Kruton"
+        },
+        "signatureMezes": {
+          "name": "10'lu Özel Meze Tabağı",
+          "description": "Şef'in önerisi"
+        },
+        "stuffedMussels": {
+          "name": "Midye Dolma",
+          "description": "Deniz mahsullü pilav, yenilebilir midye kabuğu cipsi, misket limonu"
+        }
+      },
+      "mainCourse": {
+        "salmon": {
+          "name": "Somon",
+          "description": "Bezelye püresi, avokado, semizotu, rezene, çilek, kapari, frenk üzümü, yeşil yağ, limon safran sos, erik"
+        },
+        "cafeParisEntrecote": {
+          "name": "Café de Paris Soslu Antrikot",
+          "description": "Café de Paris sos, fırınlanmış domates, baby patates, taze kekik"
+        },
+        "seaBass": {
+          "name": "Levrek",
+          "description": "Fondant patates, rezene, semizotu, misket limonu, chimichurri sos, baby turp, yeşil yağ"
+        }
+      }
+    },
+    "drinks": {
+      "cocktails": {
+        "longIsland": {
+          "name": "Long Island",
+          "description": "Votka, cin, beyaz rom, tekila, kola, portakal suyu"
+        },
+        "margarita": {
+          "name": "Margarita",
+          "description": "Tekila, portakal likörü, limon kabuğu"
+        },
+        "mojito": {
+          "name": "Gerçek Mojito",
+          "description": "Beyaz rom, limon suyu, nane, soda, şurup"
+        }
+      },
+      "softDrinks": {
+        "lemonade": {
+          "name": "Limonata",
+          "description": "Limon suyu, şurup"
+        },
+        "mintLemonade": {
+          "name": "Naneli Limonata",
+          "description": "Limon suyu, şurup, nane"
+        },
+        "freshJuices": {
+          "orange": "Portakal Suyu",
+          "carrot": "Havuç Suyu",
+          "apple": "Elma Suyu"
+        }
+      },
+      "coffeeAndTea": {
+        "turkishCoffee": {
+          "name": "Türk Kahvesi",
+          "description": "Geleneksel Türk Kahvesi"
+        },
+        "espresso": {
+          "name": "Espresso",
+          "description": "Tek shot espresso"
+        },
+        "latte": {
+          "name": "Cafe Latte",
+          "description": "Espresso ve buharlanmış süt"
+        }
+      }
     },
     "search": "Menü öğeleri, malzemeler...",
     "noResults": "Eşleşen öğe bulunamadı",
