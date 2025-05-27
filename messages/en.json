@@ -153,6 +153,46 @@
         "ghormeSebzi": {
           "name": "Ghorme Sebzi",
           "description": "A mixture of fresh meat, dense vegetables and red beans, Iranian Cuisine"
+        },
+        "mahiche": {
+          "name": "Mahiche",
+          "description": "Lamb shank"
+        },
+        "zereshkPolo": {
+          "name": "Zereshk Polo Ba Morgh",
+          "description": "Persian rice, chicken with sauce, barberries"
+        },
+        "baghaliPolo": {
+          "name": "Baghali Polo",
+          "description": "Rice with broad beans and dill"
+        }
+      },
+      "pizza": {
+        "mixPizza": {
+          "name": "Mix Pizza",
+          "description": "Pizza dough, Pizza sauce, Pepperoni, sausage, Roasted beef bacon, Colorful peppers, Mushroom, Olive"
+        },
+        "garlicMeat": {
+          "name": "Garlic with Meat",
+          "description": "Pizza dough, Pizza Sauce, Tenderloin Slices, Pickled cucumber, Roasted capia pepper, Garlic Mayonnaise, Parsley"
+        },
+        "margarita": {
+          "name": "Margarita",
+          "description": "Pizza dough, Pizza sauce, Pesto sauce, Mozzarella, Arugula"
+        }
+      },
+      "burgers": {
+        "golabBurger": {
+          "name": "Golab Burger",
+          "description": "Burger is served with sauce, caramelized onions, lettuce, tomato, pickles, and french fries"
+        },
+        "smokedBurger": {
+          "name": "Smoked Burger",
+          "description": "Burger is served with sauce, caramelized onions, lettuce, tomato, pickles, and french fries"
+        },
+        "chickenBurger": {
+          "name": "Chicken Burger",
+          "description": "Served with marinated crispy chicken breast, coleslaw salad, cheddar, burger sauce, and french fries"
         }
       },
       "desserts": {
@@ -199,6 +239,18 @@
         "newYorkSour": {
           "name": "New York Sour",
           "description": "Cherry wine, whiskey, white egg, lemon juice, syrup"
+        },
+        "summerTime": {
+          "name": "Summer Time",
+          "description": "Tequila, limoncello, sweet & sour, lemon juice, basil, salt"
+        },
+        "spicyMargarita": {
+          "name": "Spicy Margarita",
+          "description": "Tequila, triple sec, lime juice, jalapeno pepper"
+        },
+        "oldFashioned": {
+          "name": "Old Fashioned",
+          "description": "Bourbon Whiskey, Angostura Bitter, Sugar"
         }
       },
       "softDrinks": {
@@ -260,6 +312,20 @@
         "mumm": {
           "name": "G.H Mumm Ice Extra",
           "description": "70cl"
+        }
+      },
+      "spirits": {
+        "blueLabel": {
+          "name": "Blue Label",
+          "size": "70cl"
+        },
+        "jackDanielsSingle": {
+          "name": "Jack Daniels Single Barrel",
+          "size": "70cl"
+        },
+        "chivas18": {
+          "name": "Chivas 18Y",
+          "size": "70cl"
         }
       }
     },
