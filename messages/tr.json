@@ -456,5 +456,60 @@
     "rights": "© {year} GoLab Restaurant. Tüm hakları saklıdır.",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları"
+  },
+  "About": {
+    "title": "Hakkımızda",
+    "subtitle": "Yolculuğumuz, tutkumuz ve mutfak mükemmeliyetine olan bağlılığımız",
+    "story": {
+      "title": "Hikayemiz",
+      "subtitle": "2022'den Beri Mükemmellik Geleneği",
+      "content": {
+        "p1": "Golab Restaurant'ın hikayesi, İran ve Türk mutfak kültürlerinin birleşimiyle başlar.",
+        "p2": "Golab sadece bir restoran değil, unutulmaz bir deneyimdir.",
+        "p3": "İstanbul'un Bakırköy ilçesinde, deniz kıyısında, eşsiz manzarası olan bir restoran var. Bu restoran Golab. Golab, Türk, İran ve modern uluslararası mutfaklarından ilham alan zengin menüye sahip bir restorandır. Bu restoranın kurucuları, İran ve Türk mutfak kültürünün zenginliğini tanıtmak ve misafirlerine unutulmaz bir deneyim sunmak için Golab'ı açmaya karar verdiler.",
+        "p4": "Golab'ın menüsü, geleneksel Türk ve İran yemeklerinin yanı sıra uluslararası mutfaklardan lezzetler içerir. Golab'ın ünlü ve profesyonel şefi, yemeklerini hazırlarken en kaliteli malzemeleri ve modern sihirli teknikleri kullanır.",
+        "p5": "Golab hem yerli hem de yabancı misafirler tarafından tercih edilmektedir. Restoranın atmosferi sıcak ve davetkar. Restoran personeli dostane ve profesyonel.",
+        "p6": "Golab, tüm damak tatlarına hitap eden zengin menüsüyle İstanbul'un en popüler İran restoranlarından biridir."
+      }
+    },
+    "values": {
+      "title": "Felsefemiz",
+      "subtitle": "Değerlerimizle Yönlendiriliyoruz",
+      "description": "GoLab Restaurant'ta, yemek yaklaşımımız menümüzden servisimize kadar her şeyi etkileyen temel prensiplerle şekillenir.",
+      "quality": {
+        "title": "Kaliteli Malzemeler",
+        "description": "Kalite ve sürdürülebilirlik konusundaki taahhüdümüzü paylaşan çiftçiler ve tedarikçilerle doğrudan çalışarak en iyi yerel ve ithal malzemeleri tedarik ediyoruz."
+      },
+      "artistry": {
+        "title": "Mutfak Sanatı",
+        "description": "Yetenekli şeflerimiz, görsel olarak etkileyici ve lezzetli yemekler yaratmak için geleneksel teknikleri yenilikçi yaklaşımlarla birleştirir."
+      },
+      "service": {
+        "title": "Olağanüstü Hizmet",
+        "description": "Yemek yemenin sadece yemekten ibaret olmadığına inanıyoruz—bu bir deneyimdir. Özenli personelimiz, her misafirin kendini karşılanmış, değerli ve tamamen memnun hissetmesini sağlar."
+      }
+    }
+  },
+  "Contact": {
+    "title": "İletişim",
+    "subtitle": "Bir sorunuz mu var veya rezervasyon mu yaptırmak istiyorsunuz? Sizden haber almaktan mutluluk duyarız.",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "send": "Mesaj Gönder",
+      "success": "Mesajınız için teşekkürler!",
+      "successDetail": "En kısa sürede size geri dönüş yapacağız."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "description": "Her türlü soru, endişe veya geri bildiriminiz için size yardımcı olmaya hazırız. Aşağıdaki yöntemlerden herhangi biriyle bize ulaşın, en kısa sürede yanıt vereceğiz.",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "hours": "Çalışma Saatleri"
+    }
   }
 }
