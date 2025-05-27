@@ -28,6 +28,146 @@
     "orderOnline": "Order Online",
     "reservation": "Reservation"
   },
+  "Menu": {
+    "title": "Our Menu",
+    "subtitle": "Discover our chef-crafted selections featuring the finest seasonal ingredients and authentic flavors for an unforgettable dining experience.",
+    "categories": {
+      "title": "Explore Our Categories",
+      "breakfast": "Breakfast",
+      "appetizers": "Appetizers",
+      "mainCourse": "Main Course",
+      "iranianDishes": "Iranian Dishes",
+      "salads": "Salads",
+      "pizza": "Pizza",
+      "burgers": "Burgers",
+      "pasta": "Pasta",
+      "desserts": "Desserts",
+      "cocktails": "Cocktails",
+      "softDrinks": "Soft Drinks",
+      "coffeeAndTea": "Coffee and Tea",
+      "milkshakeAndSmoothies": "Milkshake & Smoothies",
+      "alcoholBottles": "Alcohol Bottles",
+      "beer": "Beer",
+      "champagne": "Champagne"
+    },
+    "items": {
+      "breakfast": {
+        "turkishBreakfast": {
+          "name": "Turkish Breakfast For Two Person",
+          "description": "Traditional Turkish breakfast spread for two"
+        },
+        "golabParisEggs": {
+          "name": "Eggs with Golab Paris Sauce",
+          "description": "Beef bacon on English muffins, 2 poached eggs, and hollandaise sauce served with chives baked side salad"
+        },
+        "breakfastPlate": {
+          "name": "Breakfast Plate",
+          "description": "Ezine feta cheese, Kars cheddar, Chengelkoy cucumber, tomato, honey, cherry jam, Nutella, boiled egg, bread basket, Served with 2 teas"
+        },
+        "avocadoEggs": {
+          "name": "Avocado Poached Eggs",
+          "description": "Served with avocado toast, 2 poached eggs, chives, side salad"
+        },
+        "menemen": {
+          "name": "Menemen",
+          "description": "Egg, tomato"
+        },
+        "frenchOmelet": {
+          "name": "French Omelet",
+          "description": "Served with plain cheese and mushroom salad"
+        },
+        "pancake": {
+          "name": "Pancake",
+          "description": "Three layers of fruit and Nutella in four pancake slices"
+        }
+      },
+      "appetizers": {
+        "lentilSoup": {
+          "name": "Lentil Soup",
+          "description": "Lentil soup, Lemon, Kruton"
+        },
+        "signatureMezes": {
+          "name": "10 Signature Mezes",
+          "description": "Chef's suggestion"
+        },
+        "stuffedMussels": {
+          "name": "Stuffed Mussels",
+          "description": "Seafood rice, edible mussel shell chips, lime"
+        }
+      },
+      "mainCourse": {
+        "salmon": {
+          "name": "Salmon",
+          "description": "Pea puree, avocado, purslane, fennel, strawberry, capers, blackcurrant, green oil, lemon saffron sauce, plum"
+        },
+        "cafeParisEntrecote": {
+          "name": "Café de Paris Entrecote with Sauce",
+          "description": "Café de Paris sauce, oven-baked tomatoes, baby potatoes, fresh thyme"
+        },
+        "seaBass": {
+          "name": "Sea Bass",
+          "description": "Fondant potato, fennel, purslane, lime, chimichurri sauce, baby radish, green oil"
+        }
+      }
+    },
+    "drinks": {
+      "cocktails": {
+        "longIsland": {
+          "name": "Long Island",
+          "description": "Vodka, gin, white rum, tequila, coca, orange juice"
+        },
+        "margarita": {
+          "name": "Margarita",
+          "description": "Tequila, orange liqueur, lemon peel"
+        },
+        "mojito": {
+          "name": "Real Mojito",
+          "description": "White rum, lemon juice, mint, soda, syrup"
+        }
+      },
+      "softDrinks": {
+        "lemonade": {
+          "name": "Lemonade",
+          "description": "Lemon juice, syrup"
+        },
+        "mintLemonade": {
+          "name": "Mint Lemonade",
+          "description": "Lemon juice, syrup, mint"
+        },
+        "freshJuices": {
+          "orange": "Orange Juice",
+          "carrot": "Carrot Juice",
+          "apple": "Apple Juice"
+        }
+      },
+      "coffeeAndTea": {
+        "turkishCoffee": {
+          "name": "Turkish Coffee",
+          "description": "Traditional Turkish Coffee"
+        },
+        "espresso": {
+          "name": "Espresso",
+          "description": "Single shot espresso"
+        },
+        "latte": {
+          "name": "Cafe Latte",
+          "description": "Espresso with steamed milk"
+        }
+      }
+    },
+    "search": "Search menu items, ingredients...",
+    "noResults": "No items found matching",
+    "clearSearch": "Clear search",
+    "featured": "Featured Items",
+    "price": "Price",
+    "ingredients": "Ingredients",
+    "dietary": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "glutenFree": "Gluten Free",
+      "spicy": "Spicy"
+    }
+  },
   "About": {
     "title": "About Us",
     "subtitle": "Our journey, our passion, and our commitment to culinary excellence",
@@ -81,41 +221,6 @@
       "phone": "Phone",
       "email": "Email",
       "hours": "Hours"
-    }
-  },
-  "Menu": {
-    "title": "Our Menu",
-    "subtitle": "Discover our chef-crafted selections featuring the finest seasonal ingredients and authentic flavors for an unforgettable dining experience.",
-    "categories": {
-      "title": "Explore Our Categories",
-      "breakfast": "Breakfast",
-      "appetizers": "Appetizers",
-      "mainCourse": "Main Course",
-      "iranianDishes": "Iranian Dishes",
-      "salads": "Salads",
-      "pizza": "Pizza",
-      "burgers": "Burgers",
-      "pasta": "Pasta",
-      "desserts": "Desserts",
-      "cocktails": "Cocktails",
-      "softDrinks": "Soft Drinks",
-      "coffeeAndTea": "Coffee and Tea",
-      "milkshakeAndSmoothies": "Milkshake & Smoothies",
-      "alcoholBottles": "Alcohol Bottles",
-      "beer": "Beer",
-      "champagne": "Champagne"
-    },
-    "search": "Search menu items, ingredients...",
-    "noResults": "No items found matching",
-    "clearSearch": "Clear search",
-    "featured": "Featured Items",
-    "price": "Price",
-    "ingredients": "Ingredients",
-    "dietary": {
-      "vegetarian": "Vegetarian",
-      "vegan": "Vegan",
-      "glutenFree": "Gluten Free",
-      "spicy": "Spicy"
     }
   },
   "Gallery": {
