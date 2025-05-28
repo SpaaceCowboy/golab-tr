@@ -1,6 +1,7 @@
 import './globals.css';
-import {NextIntlClientProvider, hasLocale} from 'next-intl'
-import {routing, Locale } from '@/i18n/routing';
+import {NextIntlClientProvider} from 'next-intl';
+import {hasLocale} from 'next-intl';
+import {routing} from '@/i18n/routing';
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { Metadata } from 'next';
@@ -25,23 +26,23 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params,
+  params: { locale },
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: { locale: string };
 }) {
-  const {locale} = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  const messages = await getMessages()
+  const messages = await getMessages(locale);
+
   return (
-    <html  lang={locale} className={`${inter.variable} ${playfair.variable}`}>
+    <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
       <body className={inter.className}>
-      <NextIntlClientProvider >
-        {children}
-      </NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
